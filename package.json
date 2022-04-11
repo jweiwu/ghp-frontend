@@ -1,0 +1,33 @@
+{
+  "name": "ghp-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext .js,vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "chart.js": "^3.7.1",
+    "pinia": "^2.0.13",
+    "vue": "^3.2.25",
+    "vue-chartjs": "^4.0.5",
+    "vue-router": "^4.0.14"
+  },
+  "devDependencies": {
+    "@vicons/material": "^0.12.0",
+    "@vitejs/plugin-vue": "^2.3.0",
+    "eslint": "^7.12.1",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-vue": "^8.6.0",
+    "naive-ui": "^2.27.0",
+    "sass": "^1.50.0",
+    "vfonts": "^0.0.3",
+    "vite": "^2.9.0"
+  }
+}
